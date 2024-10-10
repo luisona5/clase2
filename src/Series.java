@@ -13,6 +13,10 @@ public class Series {
         this.price = price;
 
     }
+    //------------------un constructor vacio
+    public Series(){
+
+    }
     //----------construyendo los getters
     public String getName() {
         return name;

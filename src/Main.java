@@ -44,10 +44,16 @@ public class Main {
         Series series3=new Series("yugi-OH","familiar",1998,"Japon ",40.5);
 
         System.out.println(series1.getName());
-        // voy a setear el valor=cambiar el año en este caso
+        // voy a setear el valor=cambiar el año en  este caso
         System.out.println(series2.getYear());
         series1.setYear(2014);
         System.out.println(series1.getYear());
+
+
+
+        series2.setName("los indestructibles");
+        series2.setYear(2014);
+        series2.setGenre("terror");
 
         /*
         series1.imprimir();
