@@ -34,5 +34,14 @@ public class Main {
         cancion1.imprimir();
         cancion2.imprimir();
         cancion3.imprimir();
+
+        System.out.println("----------------------------------------------SERIES-----------------------\n");
+        Series series1=new Series("ranma 1/2","familiar",1987,"Japon",35.6);
+        Series series2=new Series("los gargolas","familiar",1997,"Estados Unidos",40.5);
+
+        series1.imprimir();
+        series2.imprimir();
+
+
     }
 }
