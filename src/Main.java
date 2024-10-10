@@ -24,5 +24,15 @@ public class Main {
         System.out.println(libro4.imprimir_Cubiertas());
         libro5.imprimir();
         System.out.println(libro5.imprimir_Cubiertas());
+
+
+        System.out.println("----------------------------------------------MUSICA-----------------------\n");
+        Cancion cancion1=new Cancion("payaso","regueton",3.25,"Hector el ¨FATHER¨","GOLD STAR");
+        Cancion cancion2=new Cancion("sola","regueton",2.45,"Hector el ¨FATHER¨","GOLD STAR");
+        Cancion cancion3=new Cancion("dejalo caer todo el peso","regueton",4.35,"Hector el ¨FATHER¨ft Yomo","Sangre nueva");
+
+        cancion1.imprimir();
+        cancion2.imprimir();
+        cancion3.imprimir();
     }
 }
