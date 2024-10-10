@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("'\n\n\n--------LOS LIBRO DE LA BIBLIOTECA-----------\n");
+        System.out.printf("'\n\n\n--------LOS LIBRO DE LA BIBLIOTECA SABROSON -----------\n");
         // para declarar el objeto
         // para instamciar una clase
         Libro libro1=new Libro("stephen king","el resplandor",600,"de bolsillo");
