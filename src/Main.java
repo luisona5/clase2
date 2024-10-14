@@ -62,6 +62,16 @@ public class Main {
         series3.imprimir();
         */
 
+        System.out.println("\n----------------------------AUTOS-------------------------");
+        Auto auto1 = new Auto("Chevrolte","family","azul",5);
+        Auto auto2 = new Auto("Hyundai","tucson","blanco",5);
+        Auto auto3 = new Auto("Hyundai","h1","negro",12);
+        Auto auto4 = new Auto("Kia","rio","blanco",5);
 
+
+        auto1.mostrar();
+        auto2.mostrar();
+        auto3.mostrar();
+        auto4.mostrar();
     }
 }

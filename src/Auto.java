@@ -3,13 +3,13 @@ public class Auto {
     String nombre;
     String color;
     int capacidad;
+
     public Auto(String marca, String nombre, String color, int capacidad) {
         this.marca = marca;
         this.nombre = nombre;
         this.color = color;
         this.capacidad = capacidad;
     }
-
 
     // haciendo un contructor vacio
     public Auto(){  }
@@ -29,4 +29,16 @@ public class Auto {
     public void setNombre(String nombre) {this.nombre = nombre;}
     public void setColor(String color) {this.color = color;}
     public void setCapacidad(int capacidad) {this.capacidad = capacidad;}
+
+
+
+    //----------PERSONALISADO--------
+
+    public void mostrar(){
+        System.out.println("Marca: " + marca);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Color: " + color);
+        System.out.println("Capacidad: " + capacidad);
+        System.out.println("--------------------------------------------------");
+    }
 }
