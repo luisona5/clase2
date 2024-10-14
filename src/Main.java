@@ -73,5 +73,13 @@ public class Main {
         auto2.mostrar();
         auto3.mostrar();
         auto4.mostrar();
+
+        System.out.println("\n----------------------------PERSONAS-------------------------");
+        Persona persona1 = new Persona("luis","Oña","masculino",22,1.65);
+        Persona persona2 = new Persona("Carla","morales","femenino",19,1.56);
+
+        persona1.indicar();
+        persona2.indicar();
     }
+
 }
