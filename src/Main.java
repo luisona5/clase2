@@ -23,9 +23,10 @@ public class Main {
         libro4.imprimir();
         System.out.println(libro4.imprimir_Cubiertas());
         libro5.imprimir();
-        System.out.println(libro5.imprimir_Cubiertas());*/
+        System.out.println(libro5.imprimir_Cubiertas());
+*/
 
-
+/*
         System.out.println("----------------------------------------------MUSICA-----------------------\n");
         Cancion cancion1=new Cancion("payaso","regueton",3.25,"Hector el ¨FATHER¨","GOLD STAR");
         Cancion cancion2=new Cancion("sola","regueton",2.45,"Hector el ¨FATHER¨","GOLD STAR");
@@ -54,7 +55,7 @@ public class Main {
         series2.setName("los indestructibles");
         series2.setYear(2014);
         series2.setGenre("terror");
-
+*/
         /*
         series1.imprimir();
         series2.imprimir();
