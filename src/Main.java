@@ -80,6 +80,13 @@ public class Main {
 
         persona1.indicar();
         persona2.indicar();
+
+        System.out.println("\n-------------------TRANSPORTE------------------------------");
+        Transporte transporte1= new Transporte("TURISMO","NUEVO","CEPEDA","SCANNIA");
+        Transporte transporte2= new Transporte("FLOTA IMBABURA","NUEVO","IMPEDSA","HINO");
+
+        transporte1.indicar();
+        transporte2.indicar();
     }
 
 }
