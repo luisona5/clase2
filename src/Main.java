@@ -87,6 +87,21 @@ public class Main {
 
         transporte1.indicar();
         transporte2.indicar();
+
+        System.out.println("\n--------------------PELICULAS-----------------------------------");
+        Pelicula pelicula1=new Pelicula("Intensamente_2","Infantil","Pixar",1.36,2024);
+        Pelicula pelicula2=new Pelicula("Robot Salvaje","infanil","DreamWorks",1.42,2024);
+
+        pelicula1.pantalla();
+        pelicula2.pantalla();
+
+        System.out.println("\n--------------------ZAPATOS-----------------------------------");
+        zapato zapato1=new zapato("cali","nike","blanco",38,68.75);
+        zapato zapato2=new zapato("sack","adiddas","fucsia",40,125.12);
+
+        zapato1.ventana();
+        zapato2.ventana();
+
     }
 
 }
