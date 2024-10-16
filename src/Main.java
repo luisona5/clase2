@@ -102,6 +102,14 @@ public class Main {
         zapato1.ventana();
         zapato2.ventana();
 
+
+        System.out.println("----------INSTRUMENTOS MUSICALES------------");
+        Instrumento_Musical instrumento1= new Instrumento_Musical("trompeta","viento","mediano",988);
+        Instrumento_Musical instrumento2= new Instrumento_Musical("bombo","percusion","grande",147);
+
+        instrumento1.vista();
+        instrumento2.vista();
+
     }
 
 }
