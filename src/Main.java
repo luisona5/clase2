@@ -110,6 +110,14 @@ public class Main {
         instrumento1.vista();
         instrumento2.vista();
 
+        System.out.println("----------Video Juegos------------");
+        Videojuegos juego1=new Videojuegos("freefire","battle",2018,"Garena");
+        Videojuegos juego2=new Videojuegos("fifa","deportivo",2020,"EA SPORT");
+
+        juego1.demostrar();
+        juego2.demostrar();
+
+
     }
 
 }

@@ -51,6 +51,7 @@ public class Videojuegos {
         System.out.println("Genero: " + genero);
         System.out.println("Anio: " + anio);
         System.out.println("Desarrollador: " + desarrollador);
+        System.out.println("--------------------------------------------");
 
     }
 
