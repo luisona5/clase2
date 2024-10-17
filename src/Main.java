@@ -117,6 +117,12 @@ public class Main {
         juego1.demostrar();
         juego2.demostrar();
 
+        System.out.println("---------------MTERIAS-------------------");
+        Materia materia1=new Materia("POO","Se enfoca en los objetos que los programadores necesitan manipular, en lugar de centrarse en la lógica necesaria para esa manipulación",192,4);
+        Materia materia2=new Materia("Diseño de interfaces","responsable de la apariencia, la interactividad, la usabilidad, el comportamiento y la sensación general de un producto.",96,2);
+
+        materia1.pestania();
+        materia2.pestania();
 
     }
 
