@@ -124,6 +124,7 @@ public class Main {
         materia1.pestania();
         materia2.pestania();
 
+
     }
 
 }
